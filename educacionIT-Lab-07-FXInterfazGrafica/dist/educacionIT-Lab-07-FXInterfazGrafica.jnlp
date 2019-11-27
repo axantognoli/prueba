@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="educacionIT-Lab-07-FXInterfazGrafica.jnlp">
+  <information>
+    <title>educacionIT-Lab-07-FXInterfazGrafica</title>
+    <vendor>Rodolfo Durante</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="educacionIT-Lab-07-FXInterfazGrafica.jar" size="13485" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="educacionIT-Lab-07-FXInterfazGrafica" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ar.com.educacionit.lab7.ejercicio1.ventanas.Ventana"  name="educacionIT-Lab-07-FXInterfazGrafica" />
+  <update check="always"/>
+</jnlp>
